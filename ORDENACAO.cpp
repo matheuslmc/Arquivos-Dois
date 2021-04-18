@@ -60,7 +60,7 @@ int main(int argc, char**argv){
 	    printf("Gerando arquivo %s...\n",fileName);
         fwrite(e,sizeof(Endereco),qtd2,saida);
 	    
-        fclose(saida); //add condição
+        fclose(saida); //add condiÃ§Ã£o
 	    free(e);
         
     }
